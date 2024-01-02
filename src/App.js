@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import { SpeedInsights } from "@vercel/speed-insights/next"
+
 function App() {
   const [data, setData] = useState({})
   const [location, setLocation] = useState('')
